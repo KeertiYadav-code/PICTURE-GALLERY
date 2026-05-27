@@ -1,0 +1,34 @@
+.container{
+    display:grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr);
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 20PX;
+}
+
+.white{
+    background-color: rgb(204, 181, 153);
+}
+.brown{
+    background-color: maroon;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+color: white;
+flex-direction: column;
+font-size: 30px;
+
+}
