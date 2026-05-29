@@ -18,6 +18,22 @@ body{
     background: linear-gradient(to right, #041308, #0b3317);
     
 }
+@media screen and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .gallery{
+        width:100%;
+       grid-auto-rows: 350px !important;
+      padding-inline: 15px;
+    }
+    .box{
+         grid-row: span 1 !important;
+        grid-column: span 3 !important;
+    }
+}
+
 
 .left-text{
     flex-basis: 30%;
